@@ -1,0 +1,82 @@
+#project {
+    width: 100%;
+    padding: 1em;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 .3125rem .625rem 0 rgba(0,0,0,.12)!important;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+}
+#list {
+    width: 100%;
+}
+#project-design {
+    width: 100%;
+    border-bottom: 1px solid rgba(52, 71, 103,0.2);
+    padding: 2em 0em;
+    box-sizing: border-box;
+}
+#project-design > div:first-child{
+    float: left;
+    margin-left: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project-design > div:first-child > span {
+    font-size: small;
+    font-weight: 500;
+    color: #344767;
+}
+#project-design > div:first-child >img , #check > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
+#project-design > div:last-child{
+    float: right;
+    margin-right: 0.5em;
+    font-size: small;
+    font-weight: 500;
+    color: rgba(52, 71, 103, 0.3);
+}
+#check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#check > span{
+    font-size: medium;
+    font-weight: 500;
+    color: rgba(52, 71, 103, 0.3);
+}
+#tableHead {
+    width: 100%;
+    padding: 1em 0em;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(52, 71, 103,0.1);
+}
+#tableHead > span:first-child{
+    float: left;
+    font-size: medium;
+    font-weight: 500;
+    color: rgba(52, 71, 103, 0.3);
+    margin-left: 0.5em;
+}
+#tableHead > span:last-child {
+    float: right;
+    font-size: medium;
+    font-weight: 500;
+    color: rgba(52, 71, 103, 0.3);
+    margin-right: 0.5em;
+}
+#project > div:first-child {
+    font-size: medium;
+    font-weight: 500;
+    color :#344767;
+    margin-bottom: 0.5em;
+}

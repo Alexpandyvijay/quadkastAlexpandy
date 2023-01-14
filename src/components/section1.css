@@ -1,0 +1,84 @@
+#rocket {
+    width : 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#rocket-left{
+    width: 60%;
+    margin-right:0.5em;
+    background-color: white;
+    border-radius: 10px;
+    height: 30vh;
+    padding: 1em;
+    box-shadow: 0 .3125rem .625rem 0 rgba(0,0,0,.12)!important;
+    flex-direction: row;
+    display: flex;
+    box-sizing: border-box;
+}
+#rocket-left > div:first-child{
+    width: 60%;
+}
+#rocket-left > div:first-child > p:first-child{
+    color: #344767;
+    font-weight: 500;
+    font-size: medium;
+    margin: 0.5em 0em;
+    padding: 0em;
+}
+#rocket-left > div:first-child > p:nth-child(3){
+    color: rgba(52, 71, 103, 0.3);
+    font-size: medium;
+    margin: 0.5em 0em;
+    padding: 0em;
+}
+#rocket-left > div:first-child > p:last-child{
+    font-size: medium;
+    color: #344767;
+    font-weight: 400;
+}
+#rocket-left>div:last-child {
+    border-radius: 10px;
+    width: 40%;
+    background-image: linear-gradient(310deg,#7928ca,#ff0080);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+}
+#rocket-left>div:last-child >img{
+    width: 100%;
+    height: 60%;
+}
+#rocket-left>div:first-child > h5, #rocket-right>div>h5 {
+    margin: 0.5em 0em;
+    padding: 0em;
+    font-size: larger;
+    font-weight: 700;
+}
+#rocket-right{
+    width : 40%;
+    margin-left: 0.5em;
+    background-color: white;
+    border-radius: 10px;
+    height: 30vh;
+    padding: 1em;
+    box-shadow: 0 .3125rem .625rem 0 rgba(0,0,0,.12)!important;
+    box-sizing: border-box;
+}
+#rocket-right > div{
+    background-color: #344767;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
